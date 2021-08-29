@@ -1,0 +1,62 @@
+{
+  "accounts": [
+    {
+      "id": 1001,
+      "title": "Расчётный счёт",
+      "number": "XXXXXXXXXXXXXXXXX11",
+      "balance": 99999.88
+    },
+    {
+      "id": 1002,
+      "title": "Текущий счёт",
+      "number": "XXXXXXXXXXXXXXXXX22",
+      "balance": 99999.77,
+      "cards": [
+        {
+          "id": 2001,
+          "title": "VISA Rewards Noname",
+          "type": "VISA",
+          "number": "4779 86** **** 0001"
+        },
+        {
+          "id": 2002,
+          "title": "VISA #MOZHNOVSE Digital",
+          "type": "VISA",
+          "number": "4779 86** **** 0002"
+        }
+      ]
+    }
+  ],
+  "deposits": [
+    {
+      "id": 3001,
+      "title": "\"150 лет надёжности\"",
+      "finish": "11.11.2021",
+      "balance": 600000
+    }
+  ],
+  "templates": [
+    {
+      "id": 4001,
+      "title": "Пополнение (Сотовая связь)",
+      "amount": 999999
+    }
+  ],
+  "history": [
+    {
+      "id": 99,
+      "title": "Открытие вклада \"150 лет надёжности\"",
+      "amount": 999999
+    },
+    {
+      "id": 98,
+      "title": "Перевод частному лицу в другой банк",
+      "amount": -1000
+    },
+    {
+      "id": 97,
+      "title": "Билайн (Мобильная связь)",
+      "amount": -500
+    }
+  ]
+}
